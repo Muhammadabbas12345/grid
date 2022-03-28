@@ -1,0 +1,45 @@
+.item1{
+    grid-area: header;
+}
+
+
+.item2{
+    grid-area: Menu;
+}
+
+
+.item3{
+    grid-area: Main;
+}
+
+.item4{
+    grid-area: right;
+}
+
+.item5{
+    grid-area: footer;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+'header header header header header header'
+'Menu Main Main Main right right'
+'Menu footer footer footer footer footer';
+gap: 10px;
+background-color: rgb(0, 255, 34);
+padding: 10px;
+
+}
+
+
+.grid-container >div {
+    background-color: rgb(226, 43, 165);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    
+
+
+}
